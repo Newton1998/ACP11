@@ -7,7 +7,9 @@
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
         <module name="EShopImprovedTransactional" />
-        <module name="ACP11" />
+        <module name="ServletCookiesExample" />
+        <module name="ServletFilterListenerExample" />
+        <module name="ServletSessionExample" />
       </profile>
     </annotationProcessing>
   </component>
