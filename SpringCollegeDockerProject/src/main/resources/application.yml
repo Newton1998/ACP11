@@ -1,0 +1,28 @@
+spring:
+  profiles.active: dev
+
+---
+
+spring:
+  profiles: dev
+  jpa:
+    open-in-view: false
+app:
+  datasource:
+    jdbc-url: jdbc:mysql://localhost:3306/springdocker
+    username: root
+    password: 1595
+    driverClassName: com.mysql.cj.jdbc.Driver
+
+---
+
+spring:
+  profiles: prod
+  jpa:
+    open-in-view: false
+app:
+  datasource:
+    jdbc-url: jdbc:mysql://db:3306/springdocker
+    username: root
+    password: 1595
+    driverClassName: com.mysql.cj.jdbc.Driver
